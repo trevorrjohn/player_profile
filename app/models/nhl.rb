@@ -1,0 +1,3 @@
+class NHL < Player
+
+end

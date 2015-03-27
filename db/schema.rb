@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20150327002906) do
   enable_extension "plpgsql"
 
   create_table "players", force: :cascade do |t|
+    t.string   "public_id"
     t.string   "first_name"
     t.string   "last_name"
     t.string   "position"

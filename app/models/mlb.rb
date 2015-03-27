@@ -1,0 +1,3 @@
+class MLB < Player
+
+end
