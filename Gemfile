@@ -24,4 +24,5 @@ end
 
 group :test do
   gem 'rspec_api_documentation'
+  gem 'database_cleaner'
 end
