@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.2.1'
 gem 'rails', '4.2.1'
 
-gem 'active_model_serializers', '0.8.0'
+gem 'active_model_serializers', '0.8.3'
 gem 'faraday'
 gem 'pg'
 gem 'sass-rails', '~> 5.0'
