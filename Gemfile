@@ -12,14 +12,16 @@ gem 'uglifier', '>= 1.3.0'
 group :development, :test do
   gem 'byebug'
   gem 'factory_girl_rails'
-  gem 'ffaker'
+  gem 'faker'
   gem 'pry'
   gem 'pry-doc'
   gem 'pry-nav'
   gem 'pry-rails'
   gem 'rspec-rails'
-  gem 'rspec_api_documentation'
   gem 'spring'
   gem 'web-console', '~> 2.0'
 end
 
+group :test do
+  gem 'rspec_api_documentation'
+end
