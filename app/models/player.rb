@@ -5,4 +5,8 @@ class Player < ActiveRecord::Base
     ages = with_age.where(position: position).pluck(:age)
     ages.reduce(:+) / ages.size if ages.present?
   end
+
+  def name_brief
+    raise 'Method not implemented'
+  end
 end
