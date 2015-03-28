@@ -6,6 +6,7 @@ describe 'Data' do
   before do
     load File.expand_path("../../../lib/tasks/data.rake", __FILE__)
     Rake::Task.define_task(:environment)
+    allow(Rails.cache).to receive(:clear)
   end
 
   describe '#import' do
@@ -35,6 +36,14 @@ describe 'Data' do
       expect(importer2).to have_received :import
       expect(importer3).to have_received :import
       expect(importer4).to have_received :import
+    end
+
+    it 'clears the cache' do
+      allow(TaskSupport::Importer).to receive(:new).and_return(instance_double TaskSupport::Importer, import: true)
+
+      Rake::Task['data:import'].invoke
+
+      expect(Rails.cache).to have_received(:clear)
     end
 
     after do
