@@ -34,6 +34,7 @@ resource 'Players' do
                                          average_position_age_diff
                                          age
                                          position
+                                         name_brief
                                          })
     end
   end
@@ -57,6 +58,7 @@ resource 'Players' do
         'id' => @player.public_id,
         'first_name' => @player.first_name,
         'last_name' => @player.last_name,
+        'name_brief' => "#{@player.first_name} #{@player.last_name}",
         'age' => @player.age,
         'average_position_age_diff' => -5,
         'position' => @player.position)

@@ -1,5 +1,5 @@
 class PlayerSerializer < ActiveModel::Serializer
-  attributes :id, :first_name, :last_name, :age, :position, :average_position_age_diff
+  attributes :id, :first_name, :last_name, :age, :position, :average_position_age_diff, :name_brief
 
   def id
     object.public_id
@@ -9,6 +9,10 @@ class PlayerSerializer < ActiveModel::Serializer
     age - average_age_for_position if age && average_age_for_position
   end
 
+  def name_brief
+    typed_object.name_brief
+  end
+
   private
 
   def age
@@ -16,6 +20,10 @@ class PlayerSerializer < ActiveModel::Serializer
   end
 
   def average_age_for_position
-    @average_age_for_position ||= object.type.constantize.average_age_for_position object.position
+    @average_age_for_position ||= typed_object.class.average_age_for_position object.position
+  end
+
+  def typed_object
+    @typed_object ||= object.becomes object.type.constantize
   end
 end

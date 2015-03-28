@@ -20,6 +20,7 @@ describe PlayerSerializer do
         first_name: 'Jimmy',
         last_name: 'Howard',
         age: 31,
+        name_brief: 'Jimmy Howard',
         average_position_age_diff: 4,
         position: 'G',
       )
@@ -44,6 +45,7 @@ describe PlayerSerializer do
           first_name: 'Jimmy',
           last_name: 'Howard',
           age: nil,
+          name_brief: 'Jimmy Howard',
           average_position_age_diff: nil,
           position: 'G',
         )
@@ -67,6 +69,7 @@ describe PlayerSerializer do
         expect(json[:player]).to eq(
           id: '123',
           first_name: 'Jimmy',
+          name_brief: 'Jimmy Howard',
           last_name: 'Howard',
           age: nil,
           average_position_age_diff: nil,
