@@ -20,7 +20,7 @@ class PlayerSerializer < ActiveModel::Serializer
   end
 
   def average_age_for_position
-    @average_age_for_position ||= typed_object.class.average_age_for_position object.position
+    @average_age_for_position ||= AverageAgeForPositionCacheManager.fetch typed_object.class, object.position
   end
 
   def typed_object
