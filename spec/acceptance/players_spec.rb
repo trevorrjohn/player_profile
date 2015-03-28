@@ -31,6 +31,7 @@ resource 'Players' do
                                          id
                                          first_name
                                          last_name
+                                         average_position_age_diff
                                          age
                                          position
                                          })
@@ -39,7 +40,8 @@ resource 'Players' do
 
   get 'api/v1/players/:id' do
     before do
-      @player = FactoryGirl.create :player
+      @player = FactoryGirl.create :player, :nhl, age: 20, position: 'C'
+      FactoryGirl.create :player, :nhl, age: 30, position: 'C'
     end
 
     example 'it responds with success' do
@@ -56,6 +58,7 @@ resource 'Players' do
         'first_name' => @player.first_name,
         'last_name' => @player.last_name,
         'age' => @player.age,
+        'average_position_age_diff' => -5,
         'position' => @player.position)
     end
   end
