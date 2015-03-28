@@ -19,6 +19,7 @@ RSpec.describe Player, type: :model do
 
         FactoryGirl.create :player, trait, age: 5, position: 'C'
         FactoryGirl.create :player, trait, age: 15, position: 'C'
+        FactoryGirl.create :player, trait, age: nil, position: 'C'
         FactoryGirl.create :player, trait, age: 100, position: 'P'
         FactoryGirl.create :player, other_trait, age: 100, position: 'C'
       end
