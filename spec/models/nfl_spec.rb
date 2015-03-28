@@ -9,7 +9,7 @@ RSpec.describe NFL, type: :model do
         @player = NFL.new first_name: 'Golden', last_name: 'Saltini'
       end
 
-      it { is_expected.to eq 'G Saltini' }
+      it { is_expected.to eq 'G. Saltini' }
     end
 
     context 'with only first name' do
@@ -17,7 +17,7 @@ RSpec.describe NFL, type: :model do
         @player = NFL.new first_name: 'Golden'
       end
 
-      it { is_expected.to eq 'G' }
+      it { is_expected.to eq 'G.' }
     end
 
     context 'with only last name' do

@@ -9,7 +9,7 @@ RSpec.describe NBA, type: :model do
         @player = NBA.new first_name: 'Golden', last_name: 'Saltini'
       end
 
-      it { is_expected.to eq 'Golden S' }
+      it { is_expected.to eq 'Golden S.' }
     end
 
     context 'with only first name' do
@@ -25,7 +25,7 @@ RSpec.describe NBA, type: :model do
         @player = NBA.new last_name: 'Saltini'
       end
 
-      it { is_expected.to eq 'S' }
+      it { is_expected.to eq 'S.' }
     end
 
     context 'with neither first nor last name' do
