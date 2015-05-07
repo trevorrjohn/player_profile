@@ -1,0 +1,43 @@
+{
+  "resource": "Players",
+  "http_method": "GET",
+  "route": "/api/v1/players",
+  "description": "it returns all users",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/api/v1/players",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\"players\":[{\"id\":\"ba6322c4-de81-4fe8-8331-5a416364ab9c\",\"first_name\":\"Deanna\",\"last_name\":\"Prosacco\",\"age\":35,\"position\":\"TE\",\"average_position_age_diff\":2,\"name_brief\":\"Deanna Prosacco\"},{\"id\":\"ed65575b-3d46-4b05-8964-13fb3677d9e3\",\"first_name\":\"Beverly\",\"last_name\":\"Hickle\",\"age\":31,\"position\":\"TE\",\"average_position_age_diff\":-2,\"name_brief\":\"Beverly Hickle\"},{\"id\":\"bcfe5042-4338-4e09-be37-8e1204c7fbb7\",\"first_name\":\"Hassie\",\"last_name\":\"Konopelski\",\"age\":39,\"position\":\"DE\",\"average_position_age_diff\":0,\"name_brief\":\"Hassie Konopelski\"},{\"id\":\"d3a1f06c-5d2d-452a-b46d-18618ed38536\",\"first_name\":\"Lucile\",\"last_name\":\"O'Hara\",\"age\":33,\"position\":\"QB\",\"average_position_age_diff\":0,\"name_brief\":\"L. O'Hara\"},{\"id\":\"780046a0-7a46-4686-8bc8-0de7f0b6058a\",\"first_name\":\"Ruthe\",\"last_name\":\"Weber\",\"age\":34,\"position\":\"SF\",\"average_position_age_diff\":0,\"name_brief\":\"R. Weber\"},{\"id\":\"797b2ce3-2ead-4459-bf4d-13ca35072af2\",\"first_name\":\"Carolyn\",\"last_name\":\"Nader\",\"age\":26,\"position\":\"G\",\"average_position_age_diff\":0,\"name_brief\":\"C. Nader\"},{\"id\":\"8ef2cf62-547c-4730-98fc-b816b72b05b8\",\"first_name\":\"Antwan\",\"last_name\":\"D'Amore\",\"age\":40,\"position\":\"SF\",\"average_position_age_diff\":0,\"name_brief\":\"Antwan D.\"},{\"id\":\"54f4f790-fe86-4318-98ea-d69f15569459\",\"first_name\":\"Jazmin\",\"last_name\":\"Yost\",\"age\":23,\"position\":\"C\",\"average_position_age_diff\":0,\"name_brief\":\"Jazmin Y.\"},{\"id\":\"be194c5d-c894-4e51-92dd-d8cde23f2c57\",\"first_name\":\"Leanna\",\"last_name\":\"Gleichner\",\"age\":29,\"position\":\"T\",\"average_position_age_diff\":0,\"name_brief\":\"Leanna G.\"},{\"id\":\"f3c91fb3-4e7c-4a99-ae8a-88fe358f11d3\",\"first_name\":\"Meagan\",\"last_name\":\"Towne\",\"age\":27,\"position\":\"W\",\"average_position_age_diff\":0,\"name_brief\":\"M. T.\"},{\"id\":\"7a9606c2-f488-47f4-ad5c-0a48ada12984\",\"first_name\":\"Presley\",\"last_name\":\"Ferry\",\"age\":38,\"position\":\"RW\",\"average_position_age_diff\":0,\"name_brief\":\"P. F.\"},{\"id\":\"698fa741-2a1a-4f79-a92b-c094d7e19b35\",\"first_name\":\"Kamryn\",\"last_name\":\"Boyer\",\"age\":30,\"position\":\"G\",\"average_position_age_diff\":0,\"name_brief\":\"K. B.\"}]}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"d2f1690eca449107d5e53f29711f94da\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "5cfe51b2-1e7d-4be0-9636-d0ddc28c34d7",
+        "X-Runtime": "0.156069",
+        "Content-Length": "2047"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

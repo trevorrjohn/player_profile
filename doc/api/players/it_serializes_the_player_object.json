@@ -1,0 +1,43 @@
+{
+  "resource": "Players",
+  "http_method": "GET",
+  "route": "/api/v1/players",
+  "description": "it serializes the player object",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/api/v1/players",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\"players\":[{\"id\":\"f46c46e2-5a53-4f1d-8787-cb7d118438db\",\"first_name\":\"Stephania\",\"last_name\":\"Armstrong\",\"age\":19,\"position\":\"S\",\"average_position_age_diff\":0,\"name_brief\":\"Stephania Armstrong\"},{\"id\":\"1836a3b8-8a1e-48e8-af6e-c2912b07eeb5\",\"first_name\":\"Karine\",\"last_name\":\"Yost\",\"age\":29,\"position\":\"CB\",\"average_position_age_diff\":0,\"name_brief\":\"Karine Yost\"},{\"id\":\"d92871d5-45a7-4b1b-bfff-9395312ba88e\",\"first_name\":\"Kiana\",\"last_name\":\"Nienow\",\"age\":27,\"position\":\"RW\",\"average_position_age_diff\":0,\"name_brief\":\"Kiana Nienow\"},{\"id\":\"7f49c0ad-5b93-4671-b65b-4cb76ca2cb55\",\"first_name\":\"Piper\",\"last_name\":\"Pollich\",\"age\":21,\"position\":\"WR\",\"average_position_age_diff\":-1,\"name_brief\":\"P. Pollich\"},{\"id\":\"27e6cbbf-f931-4716-8b14-5570087e2806\",\"first_name\":\"Amber\",\"last_name\":\"Hickle\",\"age\":20,\"position\":\"QB\",\"average_position_age_diff\":0,\"name_brief\":\"A. Hickle\"},{\"id\":\"49105ab1-2aba-46cc-ae4b-96b3d1ebc174\",\"first_name\":\"Waylon\",\"last_name\":\"Rosenbaum\",\"age\":24,\"position\":\"WR\",\"average_position_age_diff\":2,\"name_brief\":\"W. Rosenbaum\"},{\"id\":\"00d5428b-d26c-48b5-96aa-efceadc5033d\",\"first_name\":\"Norene\",\"last_name\":\"Runolfsson\",\"age\":18,\"position\":\"QB\",\"average_position_age_diff\":0,\"name_brief\":\"Norene R.\"},{\"id\":\"5281cf4e-307d-4bf6-8446-d514d8a9d2ca\",\"first_name\":\"Rocio\",\"last_name\":\"Satterfield\",\"age\":32,\"position\":\"W\",\"average_position_age_diff\":0,\"name_brief\":\"Rocio S.\"},{\"id\":\"3c38f068-f1bf-402f-9caf-d4dfc05d0c8c\",\"first_name\":\"Mireya\",\"last_name\":\"Yundt\",\"age\":28,\"position\":\"DL\",\"average_position_age_diff\":0,\"name_brief\":\"Mireya Y.\"},{\"id\":\"2c15805a-95ec-40d3-aa40-bc9c7a7c2fdd\",\"first_name\":\"Etha\",\"last_name\":\"Skiles\",\"age\":24,\"position\":\"W\",\"average_position_age_diff\":0,\"name_brief\":\"E. S.\"},{\"id\":\"91326c68-5c74-4938-a3ad-097d91143e93\",\"first_name\":\"Gustave\",\"last_name\":\"Goyette\",\"age\":35,\"position\":\"T\",\"average_position_age_diff\":0,\"name_brief\":\"G. G.\"},{\"id\":\"aac33c63-6527-4f4e-9242-37bc4a92e58f\",\"first_name\":\"Braxton\",\"last_name\":\"Lang\",\"age\":34,\"position\":\"D\",\"average_position_age_diff\":0,\"name_brief\":\"B. L.\"}]}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"b8794887ec18d79d0ae4ec41b309761f\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "43bc23cd-0b73-40f6-96d5-734193b8df67",
+        "X-Runtime": "0.111145",
+        "Content-Length": "2054"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}
