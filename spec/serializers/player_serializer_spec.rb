@@ -20,6 +20,7 @@ describe PlayerSerializer do
         first_name: 'Jimmy',
         last_name: 'Howard',
         age: 31,
+        league: 'NHL',
         name_brief: 'Jimmy Howard',
         average_position_age_diff: 4,
         position: 'G',
@@ -45,6 +46,7 @@ describe PlayerSerializer do
           first_name: 'Jimmy',
           last_name: 'Howard',
           age: nil,
+          league: 'NHL',
           name_brief: 'Jimmy Howard',
           average_position_age_diff: nil,
           position: 'G',
@@ -72,6 +74,7 @@ describe PlayerSerializer do
           name_brief: 'Jimmy Howard',
           last_name: 'Howard',
           age: nil,
+          league: 'NHL',
           average_position_age_diff: nil,
           position: 'G',
         )

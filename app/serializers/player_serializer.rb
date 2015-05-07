@@ -1,5 +1,5 @@
 class PlayerSerializer < ActiveModel::Serializer
-  attributes :id, :first_name, :last_name, :age, :position, :average_position_age_diff, :name_brief
+  attributes :id, :first_name, :last_name, :age, :position, :average_position_age_diff, :name_brief, :league
 
   def id
     object.public_id
@@ -11,6 +11,10 @@ class PlayerSerializer < ActiveModel::Serializer
 
   def name_brief
     typed_object.name_brief
+  end
+
+  def league
+    object.type
   end
 
   private

@@ -12,6 +12,7 @@ gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
   gem 'byebug'
+  gem 'did_you_mean'
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'pry'
