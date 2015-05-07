@@ -4,28 +4,13 @@
       "name": "Players",
       "examples": [
         {
-          "description": "it responds with a player json",
-          "link": "players/it_responds_with_a_player_json.json",
+          "description": "Get all players",
+          "link": "players/get_all_players.json",
           "groups": "all"
         },
         {
-          "description": "it responds with success",
-          "link": "players/it_responds_with_success.json",
-          "groups": "all"
-        },
-        {
-          "description": "it responds with success",
-          "link": "players/it_responds_with_success.json",
-          "groups": "all"
-        },
-        {
-          "description": "it returns all users",
-          "link": "players/it_returns_all_users.json",
-          "groups": "all"
-        },
-        {
-          "description": "it serializes the player object",
-          "link": "players/it_serializes_the_player_object.json",
+          "description": "Get specific player",
+          "link": "players/get_specific_player.json",
           "groups": "all"
         }
       ]

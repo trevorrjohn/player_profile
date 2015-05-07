@@ -2,10 +2,13 @@
   "resource": "Players",
   "http_method": "GET",
   "route": "api/v1/players/:id",
-  "description": "it responds with success",
+  "description": "Get specific player",
   "explanation": null,
   "parameters": [
-
+    {
+      "name": "id",
+      "description": "Player id"
+    }
   ],
   "response_fields": [
 
@@ -13,7 +16,7 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "api/v1/players/d963ed50-72f3-4c0a-8fe5-c09b9e2f7ed4",
+      "request_path": "api/v1/players/dbab3ec6-c524-4f14-9777-1832f17e1bf6",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
@@ -24,17 +27,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\"player\":{\"id\":\"d963ed50-72f3-4c0a-8fe5-c09b9e2f7ed4\",\"first_name\":\"Alverta\",\"last_name\":\"Satterfield\",\"age\":20,\"position\":\"C\",\"average_position_age_diff\":-5,\"name_brief\":\"Alverta Satterfield\"}}",
+      "response_body": "{\"player\":{\"id\":\"dbab3ec6-c524-4f14-9777-1832f17e1bf6\",\"first_name\":\"Cyril\",\"last_name\":\"Crist\",\"age\":20,\"position\":\"C\",\"average_position_age_diff\":-5,\"name_brief\":\"Cyril Crist\"}}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"e1c09a4da1a8ff06fa072dc5ca37a009\"",
+        "ETag": "W/\"a4bdf1415bca62b43aad226a2dbe3621\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "9f6f1187-1e52-4c0d-b068-3d0efb314f47",
-        "X-Runtime": "0.014090",
-        "Content-Length": "195"
+        "X-Request-Id": "c8e1b3e5-f381-4159-9cbe-d48c325b5f45",
+        "X-Runtime": "0.024242",
+        "Content-Length": "179"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": null
