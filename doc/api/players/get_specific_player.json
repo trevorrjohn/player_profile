@@ -16,7 +16,7 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "api/v1/players/dbab3ec6-c524-4f14-9777-1832f17e1bf6",
+      "request_path": "api/v1/players/83d91c04-0c66-4885-bc67-e9a94e68db3e",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
@@ -27,17 +27,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\"player\":{\"id\":\"dbab3ec6-c524-4f14-9777-1832f17e1bf6\",\"first_name\":\"Cyril\",\"last_name\":\"Crist\",\"age\":20,\"position\":\"C\",\"average_position_age_diff\":-5,\"name_brief\":\"Cyril Crist\"}}",
+      "response_body": "{\"player\":{\"id\":\"83d91c04-0c66-4885-bc67-e9a94e68db3e\",\"first_name\":\"Kathryn\",\"last_name\":\"Langosh\",\"age\":20,\"position\":\"C\",\"average_position_age_diff\":-5,\"name_brief\":\"Kathryn Langosh\",\"league\":\"NHL\"}}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"a4bdf1415bca62b43aad226a2dbe3621\"",
+        "ETag": "W/\"9b2ba2a21d63b3abcee039abc632dc2a\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "c8e1b3e5-f381-4159-9cbe-d48c325b5f45",
-        "X-Runtime": "0.024242",
-        "Content-Length": "179"
+        "X-Request-Id": "dec5f9e7-03ce-4726-8d29-959f96c3a8cf",
+        "X-Runtime": "0.011674",
+        "Content-Length": "202"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": null
