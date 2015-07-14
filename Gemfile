@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '2.2.2'
 gem 'rails', '4.2.1'
 
+gem 'actionpack-action_caching'
 gem 'active_model_serializers', '0.8.3'
 gem 'apitome'
 gem 'dalli'

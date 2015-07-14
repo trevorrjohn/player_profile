@@ -1,4 +1,7 @@
 class Api::V1::PlayersController < ApplicationController
+  caches_action :index, format: :json
+  caches_action :show, format: :json
+
   def index
     players = Player.all
     render json: players, each_serializer: PlayerSerializer
