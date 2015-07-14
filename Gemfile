@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
 
-ruby '2.2.1'
+ruby '2.2.2'
 gem 'rails', '4.2.1'
 
 gem 'active_model_serializers', '0.8.3'
 gem 'apitome'
+gem 'dalli'
 gem 'faraday'
 gem 'pg'
 gem 'sass-rails', '~> 5.0'
