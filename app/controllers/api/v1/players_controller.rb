@@ -3,8 +3,8 @@ class Api::V1::PlayersController < ApplicationController
   caches_action :show, format: :json
 
   def index
-    players = Player.all
-    render json: players, each_serializer: PlayerSerializer
+    players = Player.find_each
+    render json: players, each_serializer: PlayerSerializer, root: 'players'
   end
 
   def show
