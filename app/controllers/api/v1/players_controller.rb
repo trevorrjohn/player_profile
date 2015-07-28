@@ -3,7 +3,7 @@ class Api::V1::PlayersController < ApplicationController
   caches_action :show, format: :json
 
   def index
-    players = Player.all
+    players = Rails.cache.fetch('players') { Player.all }
     render json: players, each_serializer: PlayerSerializer
   end
 
