@@ -1,10 +1,9 @@
 class Api::V1::PlayersController < ApplicationController
-  caches_action :index, format: :json
-  caches_action :show, format: :json
-
   def index
-    players = Rails.cache.fetch('players') { Player.all }
-    render json: players, each_serializer: PlayerSerializer
+    players_json = Rails.cache.fetch('players_json') do
+      ActiveModel::ArraySerializer.new(Player.find_each, root: 'players', each_serializer: PlayerSerializer).to_json
+    end
+    render json: players_json
   end
 
   def show
