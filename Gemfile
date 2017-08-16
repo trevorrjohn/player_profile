@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.2'
+ruby '2.3.3'
 gem 'rails', '4.2.1'
 
 gem 'actionpack-action_caching'
@@ -9,6 +9,7 @@ gem 'apitome'
 gem 'dalli'
 gem 'faraday'
 gem 'pg'
+gem 'rack-cors', require: 'rack/cors'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 
