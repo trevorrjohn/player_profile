@@ -6,7 +6,7 @@ module Api
         players_json = Rails.cache.fetch("v1_#{type_param.downcase}_players_json") do
           players = Player.where('lower(type) = ?', type_param.downcase)
           render_to_string json: ActiveModelSerializers::SerializableResource.new(
-            players, root: :players).as_json
+            players, root: :players, each_serializer: PlayerBriefSerializer).as_json
         end
         render json: players_json
       end

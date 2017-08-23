@@ -23,18 +23,15 @@ resource 'GET Player#index' do
       player = json_response['players'][0]
       expect(status).to eq 200
       expect(json_response['players'].size).to eq 3
-      expect(player.keys).to match_array(%w{
-                                         id
-                                         first_name
-                                         last_name
-                                         average_position_age_diff
-                                         age
-                                         position
-                                         league
-                                         team
-                                         photo_url
-                                         name_brief
-                                         })
+      expect(player.keys).to match_array(
+        %w[ 
+          id
+          first_name
+          last_name
+          league
+          team
+          photo_url
+        ])
     end
 
     example 'Get NHL players' do
@@ -43,18 +40,15 @@ resource 'GET Player#index' do
       player = json_response['players'][0]
       expect(status).to eq 200
       expect(json_response['players'].size).to eq 3
-      expect(player.keys).to match_array(%w{
-                                         id
-                                         first_name
-                                         last_name
-                                         average_position_age_diff
-                                         age
-                                         position
-                                         league
-                                         team
-                                         photo_url
-                                         name_brief
-                                         })
+      expect(player.keys).to match_array(
+        %w[ 
+          id
+          first_name
+          last_name
+          league
+          team
+          photo_url
+        ])
     end
 
     example 'Get NFL players' do
@@ -66,18 +60,14 @@ resource 'GET Player#index' do
       expect(json_response['players'].map{ |x| x['league'] }.uniq)
         .to eq ['NFL']
       expect(player.keys).to match_array(
-        %w[
-           id
-           first_name
-           last_name
-           average_position_age_diff
-           age
-           position
-           league
-           team
-           photo_url
-           name_brief
-      ])
+        %w[ 
+          id
+          first_name
+          last_name
+          league
+          team
+          photo_url
+        ])
     end
 
     example 'Get MLB players' do
@@ -87,18 +77,14 @@ resource 'GET Player#index' do
       expect(status).to eq 200
       expect(json_response['players'].size).to eq 3
       expect(player.keys).to match_array(
-        %w[
-           id
-           first_name
-           last_name
-           average_position_age_diff
-           age
-           position
-           league
-           team
-           photo_url
-           name_brief
-      ])
+        %w[ 
+          id
+          first_name
+          last_name
+          league
+          team
+          photo_url
+        ])
     end
   end
 end
