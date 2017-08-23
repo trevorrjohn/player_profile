@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 ruby '2.3.3'
 gem 'rails', '4.2.1'
+gem 'rake', '~> 11.3'
+gem 'bundler', '1.15.0'
 
 gem 'actionpack-action_caching'
 gem 'active_model_serializers', '0.8.3'
@@ -25,8 +27,9 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'rspec_api_documentation'
   gem 'spring'
-  gem 'web-console', '~> 2.0'
 end
+
+gem 'web-console', '~> 2.0', group: :development
 
 group :production do
   gem 'puma'

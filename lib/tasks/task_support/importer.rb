@@ -27,6 +27,8 @@ module TaskSupport
       def perform(league, players_json)
         players_json.collect do |player|
           {
+            team: player['pro_team'],
+            photo_url: player['photo'],
             public_id: player['id'],
             first_name: player['firstname'],
             last_name: player['lastname'],

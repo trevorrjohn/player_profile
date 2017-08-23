@@ -62,6 +62,8 @@ module TaskSupport
                 'lastname' => "Acy",
                 'position' => "SF",
                 'age' => 24,
+                'photo' => 'https://detroit.com/pavs',
+                'pro_team' => 'DET'
               }
             ]
           }
@@ -125,21 +127,23 @@ module TaskSupport
                 'lastname' => "Datsyuk",
                 'position' => "C",
                 'age' => 37,
+                'photo' => 'https://detroit.com/pavs',
+                'pro_team' => 'DET'
               }
             ]
           end
 
           it 'returns the Player model object hash' do
-            expect(subject).to eq([
-              {
+            expect(subject).to match([{
+                team: 'DET',
+                photo_url: 'https://detroit.com/pavs',
                 public_id: 'id',
                 first_name: 'Pavel',
                 last_name: 'Datsyuk',
                 position: 'C',
                 age: 37,
                 type: 'league'
-              }
-            ])
+            }])
           end
         end
       end
