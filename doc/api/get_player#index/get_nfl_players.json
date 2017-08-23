@@ -30,17 +30,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"players\": [\n    {\n      \"id\": \"f088e292-1b64-45f6-869b-cc6eb8228b41\",\n      \"first_name\": \"Lilian\",\n      \"last_name\": \"Medhurst\",\n      \"age\": 39,\n      \"position\": \"S\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"L. Medhurst\",\n      \"league\": \"NFL\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"ce624964-29ef-484e-9082-86c0db24f747\",\n      \"first_name\": \"Domenico\",\n      \"last_name\": \"Yundt\",\n      \"age\": 36,\n      \"position\": \"W\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"D. Yundt\",\n      \"league\": \"NFL\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"95367291-cec7-4e30-b5c9-7b146221cd27\",\n      \"first_name\": \"Danielle\",\n      \"last_name\": \"Abshire\",\n      \"age\": 28,\n      \"position\": \"RW\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"D. Abshire\",\n      \"league\": \"NFL\",\n      \"team\": null,\n      \"photo_url\": null\n    }\n  ]\n}",
+      "response_body": "{\n  \"players\": [\n    {\n      \"id\": \"007d1f50-1b5b-48f7-971e-a7baf512b6f8\",\n      \"first_name\": \"Tillman\",\n      \"last_name\": \"Jacobson\",\n      \"league\": \"NFL\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"ccbe59f0-53c8-427c-a6bc-ce4281f6a9a2\",\n      \"first_name\": \"Baby\",\n      \"last_name\": \"Ullrich\",\n      \"league\": \"NFL\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"1cf14472-4177-4d8c-85d1-a6683fcedf19\",\n      \"first_name\": \"Laney\",\n      \"last_name\": \"Rowe\",\n      \"league\": \"NFL\",\n      \"team\": null,\n      \"photo_url\": null\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"51ff52d3056b3d2b50df53a08318e201\"",
+        "ETag": "W/\"713693a0e7d13b6324b30d3be78b9548\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "dfcd518f-185e-4f84-9578-7b15b07a9f8a",
-        "X-Runtime": "0.019760",
-        "Content-Length": "658"
+        "X-Request-Id": "8fc90ef8-8b11-4a32-a5f5-51e503e44ea5",
+        "X-Runtime": "0.013398",
+        "Content-Length": "411"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": null

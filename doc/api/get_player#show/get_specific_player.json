@@ -17,7 +17,7 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "api/v1/players/4cccbff8-45ac-41a4-92e1-425d9fb368c3",
+      "request_path": "api/v1/players/b1a7a9bf-3f3e-43da-ae16-3cc9edcef46e",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
@@ -28,17 +28,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"player\": {\n    \"id\": \"4cccbff8-45ac-41a4-92e1-425d9fb368c3\",\n    \"first_name\": \"Freddie\",\n    \"last_name\": \"Runolfsson\",\n    \"age\": 20,\n    \"position\": \"C\",\n    \"average_position_age_diff\": -5,\n    \"name_brief\": \"Freddie Runolfsson\",\n    \"league\": \"NHL\",\n    \"team\": null,\n    \"photo_url\": null\n  }\n}",
+      "response_body": "{\n  \"player\": {\n    \"id\": \"b1a7a9bf-3f3e-43da-ae16-3cc9edcef46e\",\n    \"first_name\": \"Jaqueline\",\n    \"last_name\": \"Haley\",\n    \"age\": 20,\n    \"position\": \"C\",\n    \"average_position_age_diff\": -5,\n    \"name_brief\": \"Jaqueline Haley\",\n    \"league\": \"NHL\",\n    \"team\": null,\n    \"photo_url\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"02166b58de988e8a2a48c88a0b64ffc9\"",
+        "ETag": "W/\"9f8a1a6c479e0ccef7d8ad5d1f73f57b\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "ef68e7e6-fddc-4c97-af09-025c46237a1d",
-        "X-Runtime": "0.028625",
-        "Content-Length": "237"
+        "X-Request-Id": "c76cf758-e5ea-45e2-859c-2cbcdfa15b65",
+        "X-Runtime": "0.028770",
+        "Content-Length": "231"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": null

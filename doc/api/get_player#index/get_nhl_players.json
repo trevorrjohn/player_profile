@@ -30,17 +30,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"players\": [\n    {\n      \"id\": \"2b4c8994-f2f7-4512-aa3d-65cfd1f42108\",\n      \"first_name\": \"Cleveland\",\n      \"last_name\": \"Cormier\",\n      \"age\": 24,\n      \"position\": \"RW\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"Cleveland Cormier\",\n      \"league\": \"NHL\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"539a92fa-5091-40ce-8c14-13d6e3be74cf\",\n      \"first_name\": \"Valentine\",\n      \"last_name\": \"Brekke\",\n      \"age\": 28,\n      \"position\": \"QB\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"Valentine Brekke\",\n      \"league\": \"NHL\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"8cdb2513-9c02-4c6f-ad68-a57555e8a8e5\",\n      \"first_name\": \"Myra\",\n      \"last_name\": \"Osinski\",\n      \"age\": 25,\n      \"position\": \"SF\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"Myra Osinski\",\n      \"league\": \"NHL\",\n      \"team\": null,\n      \"photo_url\": null\n    }\n  ]\n}",
+      "response_body": "{\n  \"players\": [\n    {\n      \"id\": \"24fe8df5-f20e-418e-b747-c9f394836930\",\n      \"first_name\": \"Manuela\",\n      \"last_name\": \"Hoeger\",\n      \"league\": \"NHL\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"54f8c20d-cb53-49d9-abf6-a69f31846ed6\",\n      \"first_name\": \"Kara\",\n      \"last_name\": \"Little\",\n      \"league\": \"NHL\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"78546f90-ac41-4de8-862e-6cf949df36cc\",\n      \"first_name\": \"Salvador\",\n      \"last_name\": \"Kemmer\",\n      \"league\": \"NHL\",\n      \"team\": null,\n      \"photo_url\": null\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"9a939f58d9c70ec866883aa465ab2b9c\"",
+        "ETag": "W/\"4325f87d8b31cfa6ab954b330a51f3a8\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "e42925dd-2cd0-4c0b-b604-b71dc34947ed",
-        "X-Runtime": "0.009113",
-        "Content-Length": "676"
+        "X-Request-Id": "ba32dfd6-e103-4d26-ab03-0fd78216b6e0",
+        "X-Runtime": "0.004991",
+        "Content-Length": "413"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": null

@@ -30,17 +30,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"players\": [\n    {\n      \"id\": \"7fdcb6d6-3122-466d-a4c8-a2eb1bf93fdf\",\n      \"first_name\": \"Milton\",\n      \"last_name\": \"Kirlin\",\n      \"age\": 26,\n      \"position\": \"RW\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"Milton K.\",\n      \"league\": \"NBA\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"4657ae47-7d2b-46cb-855e-465cd4315a06\",\n      \"first_name\": \"Antoinette\",\n      \"last_name\": \"Schuppe\",\n      \"age\": 35,\n      \"position\": \"G\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"Antoinette S.\",\n      \"league\": \"NBA\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"d056745f-d6aa-4420-ad13-03c7bb1d1746\",\n      \"first_name\": \"Orval\",\n      \"last_name\": \"Hand\",\n      \"age\": 19,\n      \"position\": \"DB\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"Orval H.\",\n      \"league\": \"NBA\",\n      \"team\": null,\n      \"photo_url\": null\n    }\n  ]\n}",
+      "response_body": "{\n  \"players\": [\n    {\n      \"id\": \"3c5fff93-28dd-4f32-9b73-0e1d1e4581f3\",\n      \"first_name\": \"Princess\",\n      \"last_name\": \"Davis\",\n      \"league\": \"NBA\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"ff65b540-ee52-4f81-adf8-a5b9973584fb\",\n      \"first_name\": \"Daphney\",\n      \"last_name\": \"Smitham\",\n      \"league\": \"NBA\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"7e2f3e04-1da0-441d-938f-daa92400b1be\",\n      \"first_name\": \"Chester\",\n      \"last_name\": \"Spinka\",\n      \"league\": \"NBA\",\n      \"team\": null,\n      \"photo_url\": null\n    }\n  ]\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"89fca4f6dea6183dfd1f83b49541d313\"",
+        "ETag": "W/\"d19c1e0acb6dfa35b3d84a596adeb170\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "94d0a9b7-a567-4116-9bf8-e0f4a7989f9f",
-        "X-Runtime": "0.023723",
-        "Content-Length": "656"
+        "X-Request-Id": "93053832-9d9a-4026-b7eb-f9750ed888f1",
+        "X-Runtime": "0.018156",
+        "Content-Length": "416"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": null
