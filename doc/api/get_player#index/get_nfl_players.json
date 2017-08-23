@@ -1,0 +1,49 @@
+{
+  "resource": "GET Player#index",
+  "resource_explanation": null,
+  "http_method": "GET",
+  "route": "/api/v1/players",
+  "description": "Get NFL players",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "league",
+      "description": "league name eg. [NHL, NFL, MLB, NHL]"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/api/v1/players?league=NFL",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "league": "NFL"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"players\": [\n    {\n      \"id\": \"f088e292-1b64-45f6-869b-cc6eb8228b41\",\n      \"first_name\": \"Lilian\",\n      \"last_name\": \"Medhurst\",\n      \"age\": 39,\n      \"position\": \"S\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"L. Medhurst\",\n      \"league\": \"NFL\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"ce624964-29ef-484e-9082-86c0db24f747\",\n      \"first_name\": \"Domenico\",\n      \"last_name\": \"Yundt\",\n      \"age\": 36,\n      \"position\": \"W\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"D. Yundt\",\n      \"league\": \"NFL\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"95367291-cec7-4e30-b5c9-7b146221cd27\",\n      \"first_name\": \"Danielle\",\n      \"last_name\": \"Abshire\",\n      \"age\": 28,\n      \"position\": \"RW\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"D. Abshire\",\n      \"league\": \"NFL\",\n      \"team\": null,\n      \"photo_url\": null\n    }\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"51ff52d3056b3d2b50df53a08318e201\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "dfcd518f-185e-4f84-9578-7b15b07a9f8a",
+        "X-Runtime": "0.019760",
+        "Content-Length": "658"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

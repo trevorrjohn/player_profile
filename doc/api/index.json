@@ -1,49 +1,55 @@
 {
   "resources": [
     {
-      "name": "Players",
+      "name": "GET Player#index",
       "explanation": null,
       "examples": [
         {
           "description": "Get MLB players",
-          "link": "players/get_mlb_players.json",
+          "link": "get_player#index/get_mlb_players.json",
           "groups": "all",
           "route": "/api/v1/players",
           "method": "get"
         },
         {
           "description": "Get NBA players",
-          "link": "players/get_nba_players.json",
+          "link": "get_player#index/get_nba_players.json",
           "groups": "all",
           "route": "/api/v1/players",
           "method": "get"
         },
         {
           "description": "Get NFL players",
-          "link": "players/get_nfl_players.json",
+          "link": "get_player#index/get_nfl_players.json",
           "groups": "all",
           "route": "/api/v1/players",
           "method": "get"
         },
         {
           "description": "Get NHL players",
-          "link": "players/get_nhl_players.json",
+          "link": "get_player#index/get_nhl_players.json",
           "groups": "all",
           "route": "/api/v1/players",
-          "method": "get"
-        },
-        {
-          "description": "Get specific player",
-          "link": "players/get_specific_player.json",
-          "groups": "all",
-          "route": "api/v1/players/:id",
           "method": "get"
         },
         {
           "description": "invalid parameter",
-          "link": "players/invalid_parameter.json",
+          "link": "get_player#index/invalid_parameter.json",
           "groups": "all",
           "route": "/api/v1/players",
+          "method": "get"
+        }
+      ]
+    },
+    {
+      "name": "GET Player#show",
+      "explanation": null,
+      "examples": [
+        {
+          "description": "Get specific player",
+          "link": "get_player#show/get_specific_player.json",
+          "groups": "all",
+          "route": "api/v1/players/:id",
           "method": "get"
         }
       ]

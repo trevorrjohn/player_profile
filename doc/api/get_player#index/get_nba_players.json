@@ -1,0 +1,49 @@
+{
+  "resource": "GET Player#index",
+  "resource_explanation": null,
+  "http_method": "GET",
+  "route": "/api/v1/players",
+  "description": "Get NBA players",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "league",
+      "description": "league name eg. [NHL, NFL, MLB, NHL]"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/api/v1/players?league=NBA",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "league": "NBA"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"players\": [\n    {\n      \"id\": \"7fdcb6d6-3122-466d-a4c8-a2eb1bf93fdf\",\n      \"first_name\": \"Milton\",\n      \"last_name\": \"Kirlin\",\n      \"age\": 26,\n      \"position\": \"RW\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"Milton K.\",\n      \"league\": \"NBA\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"4657ae47-7d2b-46cb-855e-465cd4315a06\",\n      \"first_name\": \"Antoinette\",\n      \"last_name\": \"Schuppe\",\n      \"age\": 35,\n      \"position\": \"G\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"Antoinette S.\",\n      \"league\": \"NBA\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"d056745f-d6aa-4420-ad13-03c7bb1d1746\",\n      \"first_name\": \"Orval\",\n      \"last_name\": \"Hand\",\n      \"age\": 19,\n      \"position\": \"DB\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"Orval H.\",\n      \"league\": \"NBA\",\n      \"team\": null,\n      \"photo_url\": null\n    }\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"89fca4f6dea6183dfd1f83b49541d313\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "94d0a9b7-a567-4116-9bf8-e0f4a7989f9f",
+        "X-Runtime": "0.023723",
+        "Content-Length": "656"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

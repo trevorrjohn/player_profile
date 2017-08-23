@@ -1,16 +1,11 @@
 {
-  "resource": "Players",
+  "resource": "GET Player#show",
   "resource_explanation": null,
   "http_method": "GET",
   "route": "api/v1/players/:id",
   "description": "Get specific player",
   "explanation": null,
   "parameters": [
-    {
-      "required": true,
-      "name": "league",
-      "description": "league name eg. [NHL, NFL, MLB, NHL]"
-    },
     {
       "name": "id",
       "description": "Player id"
@@ -22,7 +17,7 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "api/v1/players/1ddd3a99-f3f0-41a0-8e20-a8c6470e8a6b",
+      "request_path": "api/v1/players/4cccbff8-45ac-41a4-92e1-425d9fb368c3",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
@@ -33,17 +28,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\n  \"player\": {\n    \"id\": \"1ddd3a99-f3f0-41a0-8e20-a8c6470e8a6b\",\n    \"first_name\": \"Jacquelyn\",\n    \"last_name\": \"Moen\",\n    \"age\": 20,\n    \"position\": \"C\",\n    \"average_position_age_diff\": -5,\n    \"name_brief\": \"Jacquelyn Moen\",\n    \"league\": \"NHL\",\n    \"team\": null,\n    \"photo_url\": null\n  }\n}",
+      "response_body": "{\n  \"player\": {\n    \"id\": \"4cccbff8-45ac-41a4-92e1-425d9fb368c3\",\n    \"first_name\": \"Freddie\",\n    \"last_name\": \"Runolfsson\",\n    \"age\": 20,\n    \"position\": \"C\",\n    \"average_position_age_diff\": -5,\n    \"name_brief\": \"Freddie Runolfsson\",\n    \"league\": \"NHL\",\n    \"team\": null,\n    \"photo_url\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"b2743789a95ce3060725546c1c093484\"",
+        "ETag": "W/\"02166b58de988e8a2a48c88a0b64ffc9\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "47396a58-b85e-4ea2-b99b-b77e05a60523",
-        "X-Runtime": "0.007319",
-        "Content-Length": "229"
+        "X-Request-Id": "ef68e7e6-fddc-4c97-af09-025c46237a1d",
+        "X-Runtime": "0.028625",
+        "Content-Length": "237"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": null

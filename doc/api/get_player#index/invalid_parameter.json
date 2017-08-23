@@ -1,5 +1,5 @@
 {
-  "resource": "Players",
+  "resource": "GET Player#index",
   "resource_explanation": null,
   "http_method": "GET",
   "route": "/api/v1/players",
@@ -36,8 +36,8 @@
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-cache",
-        "X-Request-Id": "fb691d1b-46e3-4bff-af83-1583f8b761f7",
-        "X-Runtime": "0.010029",
+        "X-Request-Id": "52d677e5-042f-4c98-a25f-0678b0d84c13",
+        "X-Runtime": "0.001311",
         "Content-Length": "36"
       },
       "response_content_type": "application/json; charset=utf-8",
