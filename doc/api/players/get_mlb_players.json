@@ -1,0 +1,49 @@
+{
+  "resource": "Players",
+  "resource_explanation": null,
+  "http_method": "GET",
+  "route": "/api/v1/players",
+  "description": "Get MLB players",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "league",
+      "description": "league name eg. [NHL, NFL, MLB, NHL]"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/api/v1/players?league=MLB",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "league": "MLB"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"players\": [\n    {\n      \"id\": \"9bcd15fe-70e1-4129-b3b3-1a4a187009b2\",\n      \"first_name\": \"Furman\",\n      \"last_name\": \"Kuphal\",\n      \"age\": 30,\n      \"position\": \"WR\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"F. K.\",\n      \"league\": \"MLB\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"1236c2e7-1140-4923-b2b9-961d071d69f1\",\n      \"first_name\": \"Jesus\",\n      \"last_name\": \"Lubowitz\",\n      \"age\": 19,\n      \"position\": \"DL\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"J. L.\",\n      \"league\": \"MLB\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"8752c883-6557-4cb0-a809-954fcb96dc13\",\n      \"first_name\": \"Delia\",\n      \"last_name\": \"Willms\",\n      \"age\": 37,\n      \"position\": \"G\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"D. W.\",\n      \"league\": \"MLB\",\n      \"team\": null,\n      \"photo_url\": null\n    }\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"9a6e9a977391c0526092285febf42329\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "5a88b47d-baa7-4913-9dfd-4ddb7cbf4e14",
+        "X-Runtime": "0.018010",
+        "Content-Length": "639"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

@@ -1,10 +1,16 @@
 {
   "resource": "Players",
+  "resource_explanation": null,
   "http_method": "GET",
   "route": "api/v1/players/:id",
   "description": "Get specific player",
   "explanation": null,
   "parameters": [
+    {
+      "required": true,
+      "name": "league",
+      "description": "league name eg. [NHL, NFL, MLB, NHL]"
+    },
     {
       "name": "id",
       "description": "Player id"
@@ -16,7 +22,7 @@
   "requests": [
     {
       "request_method": "GET",
-      "request_path": "api/v1/players/83d91c04-0c66-4885-bc67-e9a94e68db3e",
+      "request_path": "api/v1/players/1ddd3a99-f3f0-41a0-8e20-a8c6470e8a6b",
       "request_body": null,
       "request_headers": {
         "Host": "example.org",
@@ -27,17 +33,17 @@
       "request_content_type": null,
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\"player\":{\"id\":\"83d91c04-0c66-4885-bc67-e9a94e68db3e\",\"first_name\":\"Kathryn\",\"last_name\":\"Langosh\",\"age\":20,\"position\":\"C\",\"average_position_age_diff\":-5,\"name_brief\":\"Kathryn Langosh\",\"league\":\"NHL\"}}",
+      "response_body": "{\n  \"player\": {\n    \"id\": \"1ddd3a99-f3f0-41a0-8e20-a8c6470e8a6b\",\n    \"first_name\": \"Jacquelyn\",\n    \"last_name\": \"Moen\",\n    \"age\": 20,\n    \"position\": \"C\",\n    \"average_position_age_diff\": -5,\n    \"name_brief\": \"Jacquelyn Moen\",\n    \"league\": \"NHL\",\n    \"team\": null,\n    \"photo_url\": null\n  }\n}",
       "response_headers": {
         "X-Frame-Options": "SAMEORIGIN",
         "X-XSS-Protection": "1; mode=block",
         "X-Content-Type-Options": "nosniff",
         "Content-Type": "application/json; charset=utf-8",
-        "ETag": "W/\"9b2ba2a21d63b3abcee039abc632dc2a\"",
+        "ETag": "W/\"b2743789a95ce3060725546c1c093484\"",
         "Cache-Control": "max-age=0, private, must-revalidate",
-        "X-Request-Id": "dec5f9e7-03ce-4726-8d29-959f96c3a8cf",
-        "X-Runtime": "0.011674",
-        "Content-Length": "202"
+        "X-Request-Id": "47396a58-b85e-4ea2-b99b-b77e05a60523",
+        "X-Runtime": "0.007319",
+        "Content-Length": "229"
       },
       "response_content_type": "application/json; charset=utf-8",
       "curl": null

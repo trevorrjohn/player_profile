@@ -1,0 +1,49 @@
+{
+  "resource": "Players",
+  "resource_explanation": null,
+  "http_method": "GET",
+  "route": "/api/v1/players",
+  "description": "Get NBA players",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "league",
+      "description": "league name eg. [NHL, NFL, MLB, NHL]"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/api/v1/players?league=NBA",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "league": "NBA"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"players\": [\n    {\n      \"id\": \"01685856-af15-43d9-b6d8-97f17b23894e\",\n      \"first_name\": \"Al\",\n      \"last_name\": \"Moen\",\n      \"age\": 21,\n      \"position\": \"DL\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"Al M.\",\n      \"league\": \"NBA\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"4246eb1a-92e0-4bcc-b84f-67a442a2096c\",\n      \"first_name\": \"Gaylord\",\n      \"last_name\": \"Marvin\",\n      \"age\": 25,\n      \"position\": \"RW\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"Gaylord M.\",\n      \"league\": \"NBA\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"faa99967-12ce-4a56-80dc-88980b39b1a3\",\n      \"first_name\": \"Hailee\",\n      \"last_name\": \"Hodkiewicz\",\n      \"age\": 37,\n      \"position\": \"W\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"Hailee H.\",\n      \"league\": \"NBA\",\n      \"team\": null,\n      \"photo_url\": null\n    }\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"4c806cfff4fc5f2db1df3ce47f929847\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "31bff82d-d150-44ca-a675-b21184b74e13",
+        "X-Runtime": "0.026997",
+        "Content-Length": "647"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

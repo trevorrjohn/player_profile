@@ -1,0 +1,49 @@
+{
+  "resource": "Players",
+  "resource_explanation": null,
+  "http_method": "GET",
+  "route": "/api/v1/players",
+  "description": "Get NFL players",
+  "explanation": null,
+  "parameters": [
+    {
+      "required": true,
+      "name": "league",
+      "description": "league name eg. [NHL, NFL, MLB, NHL]"
+    }
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/api/v1/players?league=NFL",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+        "league": "NFL"
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\n  \"players\": [\n    {\n      \"id\": \"343505b5-9b22-4d99-b787-c50681d95b9f\",\n      \"first_name\": \"Aliza\",\n      \"last_name\": \"Heidenreich\",\n      \"age\": 20,\n      \"position\": \"SF\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"A. Heidenreich\",\n      \"league\": \"NFL\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"11768c8c-9da0-4dfa-b008-e391f581090a\",\n      \"first_name\": \"Macie\",\n      \"last_name\": \"Russel\",\n      \"age\": 37,\n      \"position\": \"S\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"M. Russel\",\n      \"league\": \"NFL\",\n      \"team\": null,\n      \"photo_url\": null\n    },\n    {\n      \"id\": \"b6783299-8fbc-4dcf-9bff-26fb70cd00ff\",\n      \"first_name\": \"Tara\",\n      \"last_name\": \"Ullrich\",\n      \"age\": 40,\n      \"position\": \"CB\",\n      \"average_position_age_diff\": 0,\n      \"name_brief\": \"T. Ullrich\",\n      \"league\": \"NFL\",\n      \"team\": null,\n      \"photo_url\": null\n    }\n  ]\n}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"fc30129b4289b4a1e27c2742c618a059\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "55d6d23d-5d2d-489d-b11c-e7c86a6c8bd7",
+        "X-Runtime": "0.017087",
+        "Content-Length": "659"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

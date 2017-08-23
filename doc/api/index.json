@@ -2,16 +2,49 @@
   "resources": [
     {
       "name": "Players",
+      "explanation": null,
       "examples": [
         {
-          "description": "Get all players",
-          "link": "players/get_all_players.json",
-          "groups": "all"
+          "description": "Get MLB players",
+          "link": "players/get_mlb_players.json",
+          "groups": "all",
+          "route": "/api/v1/players",
+          "method": "get"
+        },
+        {
+          "description": "Get NBA players",
+          "link": "players/get_nba_players.json",
+          "groups": "all",
+          "route": "/api/v1/players",
+          "method": "get"
+        },
+        {
+          "description": "Get NFL players",
+          "link": "players/get_nfl_players.json",
+          "groups": "all",
+          "route": "/api/v1/players",
+          "method": "get"
+        },
+        {
+          "description": "Get NHL players",
+          "link": "players/get_nhl_players.json",
+          "groups": "all",
+          "route": "/api/v1/players",
+          "method": "get"
         },
         {
           "description": "Get specific player",
           "link": "players/get_specific_player.json",
-          "groups": "all"
+          "groups": "all",
+          "route": "api/v1/players/:id",
+          "method": "get"
+        },
+        {
+          "description": "invalid parameter",
+          "link": "players/invalid_parameter.json",
+          "groups": "all",
+          "route": "/api/v1/players",
+          "method": "get"
         }
       ]
     }
