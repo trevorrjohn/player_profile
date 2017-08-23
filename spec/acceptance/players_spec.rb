@@ -24,6 +24,8 @@ resource 'Players' do
                                          age
                                          position
                                          league
+                                         team
+                                         photo_url
                                          name_brief
                                          })
     end
@@ -49,6 +51,8 @@ resource 'Players' do
         'league' => @player.type,
         'age' => @player.age,
         'average_position_age_diff' => -5,
+        'photo_url' => @player.photo_url,
+        'team' => @player.team,
         'position' => @player.position)
     end
   end

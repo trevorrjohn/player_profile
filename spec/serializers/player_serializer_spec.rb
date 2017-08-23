@@ -8,6 +8,8 @@ describe PlayerSerializer do
                                  first_name: 'Jimmy',
                                  last_name: 'Howard',
                                  age: 31,
+                                 team: 'DET',
+                                 photo_url: 'photo.png',
                                  position: 'G')
       allow(NHL).to receive(:average_age_for_position).and_return(27)
 
@@ -24,6 +26,8 @@ describe PlayerSerializer do
         name_brief: 'Jimmy Howard',
         average_position_age_diff: 4,
         position: 'G',
+        team: 'DET',
+        photo_url: 'photo.png',
       )
     end
 
@@ -34,6 +38,8 @@ describe PlayerSerializer do
                                    first_name: 'Jimmy',
                                    last_name: 'Howard',
                                    age: nil,
+                                   team: 'DET',
+                                   photo_url: 'photo.png',
                                    position: 'G')
         allow(NHL).to receive(:average_age_for_position)
 
@@ -50,6 +56,8 @@ describe PlayerSerializer do
           name_brief: 'Jimmy Howard',
           average_position_age_diff: nil,
           position: 'G',
+          team: 'DET',
+          photo_url: 'photo.png',
         )
       end
     end
@@ -61,6 +69,8 @@ describe PlayerSerializer do
                                    first_name: 'Jimmy',
                                    last_name: 'Howard',
                                    age: nil,
+                                   team: 'DET',
+                                   photo_url: 'photo.png',
                                    position: 'G')
         allow(NHL).to receive(:average_age_for_position).and_return(23)
 
@@ -77,6 +87,8 @@ describe PlayerSerializer do
           league: 'NHL',
           average_position_age_diff: nil,
           position: 'G',
+          team: 'DET',
+          photo_url: 'photo.png',
         )
       end
     end
