@@ -1,5 +1,4 @@
 class PlayerSerializer < ActiveModel::Serializer
-  cached
   attributes :id, :first_name, :last_name, :age, :position, :average_position_age_diff, :name_brief, :league,
     :team, :photo_url
 

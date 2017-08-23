@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
 ruby '2.3.3'
-gem 'rails', '4.2.1'
+gem 'rails', '5.1.3'
 gem 'rake', '~> 11.3'
 gem 'bundler', '1.15.0'
 
 gem 'actionpack-action_caching'
-gem 'active_model_serializers', '0.8.3'
+gem 'active_model_serializers'
 gem 'apitome'
 gem 'dalli'
 gem 'faraday'

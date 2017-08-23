@@ -17,7 +17,7 @@ describe PlayerSerializer do
 
       json = serializer.as_json
 
-      expect(json[:player]).to eq(
+      expect(json).to eq(
         id: '123',
         first_name: 'Jimmy',
         last_name: 'Howard',
@@ -47,7 +47,7 @@ describe PlayerSerializer do
 
         json = serializer.as_json
 
-        expect(json[:player]).to eq(
+        expect(json).to eq(
           id: '123',
           first_name: 'Jimmy',
           last_name: 'Howard',
@@ -78,7 +78,7 @@ describe PlayerSerializer do
 
         json = serializer.as_json
 
-        expect(json[:player]).to eq(
+        expect(json).to eq(
           id: '123',
           first_name: 'Jimmy',
           name_brief: 'Jimmy Howard',
