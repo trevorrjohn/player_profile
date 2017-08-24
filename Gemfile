@@ -29,7 +29,10 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'web-console', '~> 2.0', group: :development
+group :development do
+  gem 'listen'
+  gem 'web-console', '~> 2.0'
+end
 
 group :production do
   gem 'puma'
