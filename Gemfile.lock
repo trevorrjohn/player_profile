@@ -40,6 +40,8 @@ GEM
       activemodel (= 5.1.3)
       activesupport (= 5.1.3)
       arel (~> 8.0)
+    activerecord-import (0.18.1)
+      activerecord (>= 3.2)
     activesupport (5.1.3)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (~> 0.7)
@@ -218,6 +220,7 @@ PLATFORMS
 DEPENDENCIES
   actionpack-action_caching
   active_model_serializers
+  activerecord-import
   apitome
   bundler (= 1.15.0)
   byebug

@@ -23,7 +23,7 @@ module TaskSupport
 
     describe '#import' do
       before do
-        allow(Player).to receive :create
+        allow(Player).to receive :import
 
         @sport_fetcher = instance_double Importer::SportFetcher, find: 'sport'
         @conn = instance_double Faraday::Connection
@@ -84,7 +84,7 @@ module TaskSupport
 
         @subject.import
 
-        expect(Player).to have_received(:create).with(deserialized_players)
+        expect(Player).to have_received(:import).with(deserialized_players)
       end
     end
 

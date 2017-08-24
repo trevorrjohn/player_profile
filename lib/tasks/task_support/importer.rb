@@ -20,7 +20,7 @@ module TaskSupport
       return unless json
 
       deserialized_players = deserializer.perform(league, json['body']['players'])
-      Player.create(deserialized_players)
+      Player.import(deserialized_players)
     end
 
     class Deserializer
