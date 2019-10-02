@@ -1,9 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '2.3.3'
+ruby '2.6.3'
 gem 'rails', '5.1.3'
 gem 'rake', '~> 11.3'
-gem 'bundler', '1.15.0'
 
 gem 'actionpack-action_caching'
 gem 'active_model_serializers'
@@ -18,11 +17,9 @@ gem 'activerecord-import'
 
 group :development, :test do
   gem 'byebug'
-  gem 'did_you_mean'
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'pry'
-  gem 'pry-doc'
   gem 'pry-nav'
   gem 'pry-rails'
   gem 'rspec-rails'
