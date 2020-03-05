@@ -1,5 +1,7 @@
 # Player Profiles
 
+![CI](https://github.com/trevorrjohn/player_profile/workflows/CI/badge.svg)
+
 ## Instructions
 
 To run the app, first run
