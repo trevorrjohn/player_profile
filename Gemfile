@@ -29,7 +29,7 @@ end
 
 group :development do
   gem 'listen'
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 3.7'
 end
 
 group :production do
